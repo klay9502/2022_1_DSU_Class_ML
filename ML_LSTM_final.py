@@ -115,7 +115,7 @@ def multi_step_plot(history, true_future, prediction):
 # 데이터 전처리
 tf.random.set_seed(1)
 
-df=pd.read_csv("old_data/data.csv", encoding='utf-8')
+df=pd.read_csv("oil_data/data.csv", encoding='utf-8')
 
 df = df[df.Dubai != '-']
 df = df[df.Brent != '-']
